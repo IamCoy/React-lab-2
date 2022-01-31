@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-container{
   display: flex;
+  background-color: #f3f1f7;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  
+  
+}
+
+form{
+  background-color: #79c5e8;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+input{
+  display: block;
+}
+
+label{
+  display: block;
+}
+
+.submit-button{
+  display: block;
+}
+
+.close{
+  background-color:#79c5e8; ;
+  margin-left: 93%;
+  border: none;
+}
+
+.list{
+ border-bottom: 1px solid grey;
+  line-height: 0%;
+  overflow-wrap: break-word;
+}
+
+
+.list h2{
+  font-size: 24px;
+}
+
+.main{
+  border: 1px solid black;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  font-family:'Dosis', sans-serif;
+  border-radius: 5px;
+  padding: 20px;
+  width: 500px;
+  height: 100%;
+  
+
+}
+
+.delete-button{
+  margin-left: 90%;
+  
+  
+}
+
+.main-container h1 {
+  font-family: 'Caveat' , cursive;
+  color: #03a9f4 ;
+  font-size: 45px;
+}
+
+ .new-thought-button {
+  background-color:#03a9f4;
+  padding: 10px 225px;
   color: white;
+  font-weight: 700;
+  margin-bottom: 5px;
+  border-radius: 4px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
