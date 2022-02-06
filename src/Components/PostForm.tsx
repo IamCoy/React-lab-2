@@ -23,9 +23,9 @@ export function PostForm(props: {onSubmit: (post: Post) => void, onClose: () => 
                     <form>
                             <button className="close" onClick={() => props.onClose()}>X</button>
 
-                            <label htmlFor="title">title</label>
+                            <label htmlFor="title">Title</label>
                             <input type="text" name="title" value ={newTitle} onChange={(e) => setNewTitle(e.target.value)}></input>
-                            <label htmlFor="thought">thought</label>
+                            <label htmlFor="thought">Thought</label>
                             <textarea name="thought" value ={newThought} onChange={(e) => setNewThought(e.target.value)}></textarea>
                             <button onClick={() => 
                             {props.onSubmit({ title: newTitle, thought: newThought})
